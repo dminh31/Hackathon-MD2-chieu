@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-size: 20px;
+}
+.header{
+  background-color: red;
+  text-align: center;
+  height: 50px;
+  font-size: 30px;
+  position: fixed;  
+  top: 0;
+  width: 100%;
+}
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 100px;
+  gap: 30px;
+  margin: 0 auto;
+  text-align: center;
+}
+button{
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  outline: none;
+  border: none;
+}
+button:hover{
+  background-color: red;
+}
+.item{
+  border: 1px solid black;
+}
